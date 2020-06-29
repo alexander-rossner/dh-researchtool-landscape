@@ -1,0 +1,883 @@
+[
+  {
+    "name": "Textgrid",
+    "apptype": ["portable"],
+    "functionRange": "hoch",
+    "link": "https://textgrid.de/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Schem",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "Koll"
+    ],
+    "logo": "101textgrid.svg",
+    "categories": ["VRE", "Annotation"],
+    "developer": "DARIAH-DE"
+  },
+  {
+    "name": "Heurist Data Management",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "http://heuristnetwork.org/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA",
+      "discA",
+      "Vis",
+      "Koll"
+    ],
+    "logo": "102heurist_data_management.png",
+    "categories": ["VRE", "Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "eHumanities Desktop",
+    "apptype": ["web"],
+    "functionRange": "hoch",
+    "link": "https://www.texttechnologylab.org/applications/ehumanities-desktop/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "Kat",
+      "Schem",
+      "lAnn",
+      "sAnn",
+      "netwA",
+      "Vis",
+      "Koll"
+    ],
+    "logo": "103ehumanities_desktop.png",
+    "categories": ["VRE", "Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "FUD",
+    "apptype": ["client-server"],
+    "functionRange": "hoch",
+    "link": "https://fud.uni-trier.de/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Schem",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA",
+      "discA",
+      "netwA",
+      "Vis",
+      "Koll"
+    ],
+    "logo": "104fud.png",
+    "categories": ["VRE", "Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "TUSTEP",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://www.tustep.uni-tuebingen.de/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA"
+    ],
+    "logo": "105tustep.jpg",
+    "categories": ["VRE", "Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Annotate (A.nnotate)",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "https://www.annotate.com/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "Koll"],
+    "logo": "201annotate.svg",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Annotation Studio",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "https://www.annotationstudio.org/",
+    "digitalMethodsUsed": ["mAnn", "lAnn", "sAnn", "lingA", "Koll"],
+    "logo": "202annotation_studio.gif",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Annotations",
+    "apptype": ["desktop"],
+    "functionRange": "gering",
+    "link": "https://www.annotationsapp.com/",
+    "digitalMethodsUsed": ["mAnn", "lAnn", "sAnn"],
+    "logo": "203annotations.png",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Annotator",
+    "apptype": ["browser"],
+    "functionRange": "gering",
+    "link": "http://annotatorjs.org/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn"],
+    "logo": "204annotator.PNG",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Brat Rapid Annotation",
+    "apptype": ["browser"],
+    "functionRange": "gering",
+    "link": "http://brat.nlplab.org/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "Koll"],
+    "logo": "205brat_rapid_annotation.PNG",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Catma",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "http://catma.de/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA",
+      "discA",
+      "Vis"
+    ],
+    "logo": "206classical_text_editor.PNG",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Classical Text Editor",
+    "apptype": ["desktop"],
+    "functionRange": "moderat",
+    "link": "http://cte.oeaw.ac.at/",
+    "digitalMethodsUsed": ["mAnn", "aAnn", "Kat", "lAnn", "sAnn"],
+    "logo": "207catma.jpg",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Coding Analysis Toolkit (CAT)",
+    "apptype": ["web"],
+    "functionRange": "hoch",
+    "link": "https://cat.texifter.com/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "lingA", "semA"],
+    "logo": "208coding_analysis_toolkit.png",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Digital Mappa",
+    "apptype": ["browser"],
+    "functionRange": "hoch",
+    "link": "https://digitalmappa.org/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "Koll"],
+    "logo": "209digital_mappa.webp",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Ediarum",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://www.bbaw.de/telota/software/ediarum",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Schem",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "Koll"
+    ],
+    "logo": "210ediarum.png",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": "BBAW"
+  },
+  {
+    "name": "eLaborate",
+    "apptype": ["web"],
+    "functionRange": "hoch",
+    "link": "https://www.elaborate.huygens.knaw.nl/login",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "Koll"],
+    "logo": "211elaborate.jpg",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Inception",
+    "apptype": ["browser"],
+    "functionRange": "moderat",
+    "link": "https://inception-project.github.io/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA",
+      "discA"
+    ],
+    "logo": "212inception.png",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "MorphAdorner",
+    "apptype": ["client-server"],
+    "functionRange": "hoch",
+    "link": "http://morphadorner.northwestern.edu/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA"
+    ],
+    "logo": "213morph_adorner.PNG",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Natural Language Toolkit (NLTK)",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "https://www.nltk.org/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Kat",
+      "lAnn",
+      "sann",
+      "lingA",
+      "semA",
+      "Vis"
+    ],
+    "logo": "214natural_language_toolkit.PNG",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Nota Bene (NB)",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "http://nb.mit.edu/welcome",
+    "digitalMethodsUsed": ["mAnn", "lAnn", "sAnn", "Koll"],
+    "logo": "215nota_bene.PNG",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "NowComment",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "https://nowcomment.com/",
+    "digitalMethodsUsed": ["mAnn", "sAnn", "Koll"],
+    "logo": "216nowcomment.png",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "PACTE",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "http://pacte.crim.ca/index_en.html",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA",
+      "Vis",
+      "Koll"
+    ],
+    "logo": "217pacte.png",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Pundit Annotation",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "http://thepund.it/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "sAnn", "Koll"],
+    "logo": "218pundit_annotation.PNG",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "QAnnotate",
+    "apptype": ["portable"],
+    "functionRange": "moderat",
+    "link": "https://www.linglit.tu-darmstadt.de/institutlinglit/fachgebiete/cophi/forschungcomputerphilologie/humanist_qannotate.de.jsp",
+    "digitalMethodsUsed": ["mAnn", "lAnn", "sAnn", "Koll"],
+    "logo": "q-annotate.svg",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Recogito",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "https://recogito.pelagios.org/",
+    "digitalMethodsUsed": ["mAnn", "sAnn", "netwA", "geoA", "Vis", "Koll"],
+    "logo": "220recognito.png",
+    "categories": ["Annotation", "Geoanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Scripto",
+    "apptype": ["browser"],
+    "functionRange": "gering",
+    "link": "http://scripto.org/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn"],
+    "logo": "221scripto.PNG",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "SPEEDy",
+    "apptype": ["browser"],
+    "functionRange": "moderat",
+    "link": "https://github.com/argimenes/standoff-properties-editor",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "Koll"],
+    "logo": "222speedy.PNG",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Text Analysis Markup System (TAMS) Analyzer",
+    "apptype": ["desktop"],
+    "functionRange": "moderat",
+    "link": "http://tamsys.sourceforge.net/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "sAnn", "semA", "discA", "toMap"],
+    "logo": "tams-analyzer.png",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "Transkribus",
+    "apptype": ["portable"],
+    "functionRange": "hoch",
+    "link": "https://transkribus.eu/Transkribus/",
+    "digitalMethodsUsed": ["mAnn", "aAnn", "Kat", "lAnn", "sAnn", "semA"],
+    "logo": "224transkribus.png",
+    "categories": ["Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "UAM Corpus Tool",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://corpustool.com/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA"
+    ],
+    "logo": "uam-corpus-tool.jpg",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Weblicht",
+    "apptype": ["web"],
+    "functionRange": "hoch",
+    "link": "https://www.clarin-d.de/de/sprachressourcen-und-dienste/weblicht",
+    "digitalMethodsUsed": ["aAnn", "Kat", "Schem", "lAnn", "sAnn"],
+    "logo": "226weblicht.png",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "WordFreak",
+    "apptype": ["desktop"],
+    "functionRange": "moderat",
+    "link": "http://wordfreak.sourceforge.net/",
+    "digitalMethodsUsed": ["mAnn", "Kat", "lAnn"],
+    "logo": "227wordfreak.gif",
+    "categories": ["Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "ANNIS",
+    "apptype": ["desktop", "browser"],
+    "functionRange": "hoch",
+    "link": "https://corpus-tools.org/annis/",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "toMap", "Vis", "Koll"],
+    "logo": "301annis.PNG",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Antconc",
+    "apptype": ["portable"],
+    "functionRange": "moderat",
+    "link": "https://www.laurenceanthony.net/software/antconc/",
+    "digitalMethodsUsed": ["lingA", "Vis"],
+    "logo": "302antconc.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "CorpusExplorer",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "https://notes.jan-oliver-ruediger.de/software/corpusexplorer-overview/",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "toMap", "Vis"],
+    "logo": "corpusexplorer.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Cosmas II (Corpus Search, Management and Anal",
+    "apptype": ["web", "desktop"],
+    "functionRange": "hoch",
+    "link": "https://cosmas2.ids-mannheim.de/",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "tmpA"],
+    "logo": "304cosmas2.gif",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Hermetic Word Frequency Finder",
+    "apptype": ["desktop"],
+    "functionRange": "gering",
+    "link": "https://www.hermetic.ch/wfc/wfc.htm",
+    "digitalMethodsUsed": ["lingA", "semA"],
+    "logo": "305hermetic_wfc.gif",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Jupyter Notebook",
+    "apptype": ["browser"],
+    "functionRange": "hoch",
+    "link": "https://jupyter.org/",
+    "digitalMethodsUsed": [
+      "lingA",
+      "semA",
+      "discA",
+      "toMap",
+      "netwA",
+      "geoA",
+      "Vis"
+    ],
+    "logo": "306jupyter_notebook.svg",
+    "categories": ["Korpusanalyse", "Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "JuxtaCommons",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "http://juxtacommons.org/",
+    "digitalMethodsUsed": ["lingA", "semA", "Vis"],
+    "logo": "307juxta_commons.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "LancsBox (GraphColl)",
+    "apptype": ["desktop"],
+    "functionRange": "moderat",
+    "link": "http://corpora.lancs.ac.uk/lancsbox/",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "netwA", "tmpA", "Vis"],
+    "logo": "308lancsbox.jpg",
+    "categories": ["Korpusanalyse", "Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Rapid Miner",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "https://rapidminer.com/products/studio/",
+    "digitalMethodsUsed": ["semA", "discA", "toMap", "netwA", "tmpA", "Vis"],
+    "logo": "309rapidminer.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "RAW Graphs",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "https://rawgraphs.io/",
+    "digitalMethodsUsed": ["semA", "toMap", "Vis"],
+    "logo": "310raw_graphs.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Sketch Engine (NoSketch Engine)",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "https://www.sketchengine.eu/",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "Vis"],
+    "logo": "311sketch_engine.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Stereoscope",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "http://stereoscope.threedh.net/",
+    "digitalMethodsUsed": [
+      "lingA",
+      "semA",
+      "discA",
+      "toMap",
+      "sentA",
+      "netwA",
+      "Vis"
+    ],
+    "logo": "312stereoscope.svg",
+    "categories": ["Korpusanalyse", "Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Stylo",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "https://fortext.net/tools/tools/stylo",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "netwA", "Vis"],
+    "logo": "313stylo.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Taporware",
+    "apptype": ["web"],
+    "functionRange": "hoch",
+    "link": "http://taporware.ualberta.ca/",
+    "digitalMethodsUsed": ["lingA", "semA", "Vis"],
+    "logo": "314tapor.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Textable",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://textable.io/",
+    "digitalMethodsUsed": [
+      "lingA",
+      "semA",
+      "discA",
+      "toMap",
+      "sentA",
+      "netwA",
+      "Gmod",
+      "Vis"
+    ],
+    "logo": "315textable.svg",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "TextDNA",
+    "apptype": ["browser"],
+    "functionRange": "moderat",
+    "link": "http://graphics.cs.wisc.edu/Vis/SequenceSurveyor/TextDNA.html",
+    "digitalMethodsUsed": ["semA", "discA", "toMap", "sentA", "Vis"],
+    "logo": "text-dna.png",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "TokenX",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "http://tokenx.unl.edu/",
+    "digitalMethodsUsed": ["lingA", "semA", "Vis"],
+    "logo": "317tokenx.jpg",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Tropes",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://www.semantic-knowledge.com/tropes.htm",
+    "digitalMethodsUsed": ["semA", "discA", "toMap", "netwA", "Vis"],
+    "logo": "318tropes.jpg",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "TXM (Textometrie)",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://textometrie.ens-lyon.fr/?lang=en",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "toMap", "Vis"],
+    "logo": "319txm.PNG",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Voyant Tools",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "http://voyant-tools.org/",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "Vis"],
+    "logo": "320voyant.PNG",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Word and Phrase",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "https://www.wordandphrase.info/",
+    "digitalMethodsUsed": ["lingA", "semA", "Vis"],
+    "logo": "word-and-phrase.svg",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "WORDij",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://wordij.net/",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "toMap", "netwA", "Vis"],
+    "logo": "322wordij.jpg",
+    "categories": ["Korpusanalyse", "Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Wordle",
+    "apptype": ["web", "desktop"],
+    "functionRange": "gering",
+    "link": "http://www.wordle.net/",
+    "digitalMethodsUsed": ["semA", "Vis"],
+    "logo": "323wordle.gif",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Wordtree",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "https://www.jasondavies.com/wordtree/",
+    "digitalMethodsUsed": ["lingA", "discA", "Vis"],
+    "logo": "word-tree.svg",
+    "categories": ["Korpusanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Cytoscape",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://www.cytoscape.org/",
+    "digitalMethodsUsed": ["mAnn", "semA", "netwA", "GMod", "Vis", "tmpA"],
+    "logo": "401cytoscape.svg",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "EgoWeb 2.0",
+    "apptype": ["desktop"],
+    "functionRange": "moderat",
+    "link": "https://www.qualintitative.com/egoweb/",
+    "digitalMethodsUsed": ["netwA", "Vis"],
+    "logo": "402egoweb.png",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Ezlinavis",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "https://ezlinavis.dracor.org/",
+    "digitalMethodsUsed": ["netwA", "Vis"],
+    "logo": "easy-linavis.svg",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Gephi",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "https://gephi.org/",
+    "digitalMethodsUsed": ["netwA", "GMod", "tmpA", "Vis"],
+    "logo": "404gephi.png",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "GraphViz",
+    "apptype": ["desktop"],
+    "functionRange": "moderat",
+    "link": "http://www.graphviz.org/",
+    "digitalMethodsUsed": ["netwA", "GMod", "tmpA", "Vis"],
+    "logo": "405graphviz.png",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Histograph",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "http://histograph.eu/",
+    "digitalMethodsUsed": ["netwA", "tmpA", "Vis"],
+    "logo": "histograph.png",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "InfraNodus (Textexture)",
+    "apptype": ["desktop", "web"],
+    "functionRange": "moderat",
+    "link": "https://infranodus.com/",
+    "digitalMethodsUsed": ["netwA", "Vis"],
+    "logo": "infranodus.png",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Neo4j",
+    "apptype": ["web"],
+    "functionRange": "hoch",
+    "link": "https://neo4j.com/",
+    "digitalMethodsUsed": ["netwA", "GMod", "geoA", "tmpA", "Vis", "Koll"],
+    "logo": "408neo4j.png",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Nodegoat",
+    "apptype": ["web", "browser"],
+    "functionRange": "hoch",
+    "link": "http://nodegoat.net/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "sAnn",
+      "netwA",
+      "geoA",
+      "tmpA",
+      "Vis",
+      "Koll"
+    ],
+    "logo": "409nodegoat.PNG",
+    "categories": ["Netzwerkanalyse", "Annotation"],
+    "developer": ""
+  },
+  {
+    "name": "ORALite Netscenes",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://www.casos.cs.cmu.edu/projects/ora/software.php",
+    "digitalMethodsUsed": ["netwA", "geoA", "tmpA", "GMod", "Vis"],
+    "logo": "ora-lite.svg",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Pajek",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "http://mrvar.fdv.uni-lj.si/pajek/",
+    "digitalMethodsUsed": ["netwA", "geoA", "GMod", "tmpA", "Vis"],
+    "logo": "411pajek.png",
+    "categories": ["Netzwerkanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Palladio ",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "http://hdlab.stanford.edu/palladio/",
+    "digitalMethodsUsed": ["netwA", "geoA", "tmpA", "Vis"],
+    "logo": "412palladio.png",
+    "categories": ["Netzwerkanalyse", "Geoanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "ArcGIS",
+    "apptype": ["desktop", "client-server"],
+    "functionRange": "hoch",
+    "link": "https://www.esri.de/produkte/arcgis",
+    "digitalMethodsUsed": ["geoA", "netwA", "tmpA", "Vis"],
+    "logo": "arcgis.png",
+    "categories": ["Geoanalyse"],
+    "developer": "ESRI"
+  },
+  {
+    "name": "DARE (Digital Atlas of the Roman Empire)",
+    "apptype": ["web"],
+    "functionRange": "gering",
+    "link": "https://dh.gu.se/dare/",
+    "digitalMethodsUsed": ["geoA", "Vis"],
+    "logo": "dare.svg",
+    "categories": ["Geoanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "DARIAH Geobrowser",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "https://geobrowser.de.dariah.eu/",
+    "digitalMethodsUsed": ["geoA", "netwA", "tmpA", "Vis"],
+    "logo": "503dariah_geobrowser.svg",
+    "categories": ["Geoanalyse"],
+    "developer": "DARIAH-DE"
+  },
+  {
+    "name": "Historypin",
+    "apptype": ["web"],
+    "functionRange": "moderat",
+    "link": "https://www.historypin.org/",
+    "digitalMethodsUsed": ["geoA", "tmpA", "Vis", "Koll"],
+    "logo": "504historypin.PNG",
+    "categories": ["Geoanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "Neatline",
+    "apptype": ["client-server"],
+    "functionRange": "hoch",
+    "link": "http://www.neatline.org/",
+    "digitalMethodsUsed": ["geoA", "tmpA", "Vis", "Koll"],
+    "logo": "505neatline.png",
+    "categories": ["Geoanalyse"],
+    "developer": ""
+  },
+  {
+    "name": "QGIS",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "https://qgis.org",
+    "digitalMethodsUsed": ["geoA", "netwA", "tmpA", "Vis"],
+    "logo": "qgis.svg",
+    "categories": ["Geoanalyse"],
+    "developer": ""
+  }
+]

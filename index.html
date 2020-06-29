@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Digital Humanities Researchtool Landscape Online</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,400i&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-light">
+    <!-- Navigation -->
+    <nav
+      class="navbar-expand-lg navbar-light static-top p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="https://humanist.hs-mainz.de"
+          target="_blank"
+          ><img
+            src="img/humanist.svg"
+            alt="Humanist Computer Interaction auf dem Prüfstand"
+        /></a>
+        <a class="navbar-brand" href="https://wimm.hs-mainz.de" target="_blank"
+          ><img src="img/hsmz_w.svg" alt="Hochschule Mainz"
+        /></a>
+        <a
+          class="navbar-brand"
+          href="https://www.tu-darmstadt.de"
+          target="_blank"
+          ><img src="img/tuda.svg" alt="TU Darmstadt"
+        /></a>
+        <span class="navbar-creators">
+          <b>Humanist Computer Interaction auf dem Prüfstand</b><br />
+          TU Darmstadt: Marcel Frey-Endres<br />
+          Hochschule Mainz: Tobias Simon, Alexander Rossner, Sven Pagel
+        </span>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pt-4 pb-4">
+          <h1>
+            Digital Humanities Researchtool Landscape Online
+            <span class="counter-text"
+              ><span id="count-total">0</span> Tools</span
+            >
+          </h1>
+        </div>
+      </div>
+      <div class="card-columns" id="row-products"></div>
+      <div class="row-legend">
+        <h2>Legende</h2>
+        <div class="legend-description">Art der Anwendung</div>
+        <div class="legend-item legend-item-apptype">
+          <div class="apptype-portable">Portable</div>
+        </div>
+        <div class="legend-item legend-item-apptype">
+          <div class="apptype-desktop">Desktop</div>
+        </div>
+        <div class="legend-item legend-item-apptype">
+          <div class="apptype-clientserver">Client Server</div>
+        </div>
+        <div class="legend-item legend-item-apptype">
+          <div class="apptype-web">Web</div>
+        </div>
+        <div class="legend-item legend-item-apptype">
+          <div class="apptype-browser">Browser</div>
+        </div>
+        <div class="legend-item legend-item-apptype">
+          <div class="apptype-other">Sonstige</div>
+        </div>
+
+        <div class="legend-description">Funktionsumfang</div>
+        <div class="legend-item legend-item-fr">
+          <div class="fr-gering">gering</div>
+        </div>
+        <div class="legend-item legend-item-fr">
+          <div class="fr-moderat">moderat</div>
+        </div>
+        <div class="legend-item legend-item-fr">
+          <div class="fr-hoch">hoch</div>
+        </div>
+
+        <div class="legend-description">Digitale Methoden</div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">mAnn</div>
+          = manuelle Annotation
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">aAnn</div>
+          = (teil-)automatisierte Annotation
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">lAnn</div>
+          = linguistische Annotation
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">sAnn</div>
+          = semantische Annotation
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">Kat</div>
+          = Kategorisierung
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">Schem</div>
+          = Schema-Erstellung
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">lingA</div>
+          = Linguistische Analyse
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">semA</div>
+          = Semantische Analyse
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">discA</div>
+          = Diskursanalyse
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">toMap</div>
+          = Topical Mapping
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">sentA</div>
+          = Sentimentanalyse
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">vis</div>
+          = Visualisierung, Netzwerkvisualisierung, Geovisualisierung
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">netwA</div>
+          = Netzwerkanalyse
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">GMod</div>
+          = Graphenmodellierung
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">timA</div>
+          = Zeitreihen-Analyse
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">geoA</div>
+          = Geoanalyse
+        </div>
+        <div class="legend-item legend-item-digital-method">
+          <div class="legend-item-digital-method-icon">map</div>
+          = Kartenerstellung
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="pt-4 py-md-5 pt-md-5 border-top bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a rel="license" href="https://choosealicense.com/licenses/mit/"
+              ><img
+                alt="MIT License"
+                style="border-width:0"
+                src="img/mit-license.svg"
+                height="50"/></a
+            ><br />
+            <p>
+              DH Tool Landscape von Marcel Frey-Endres, Tobias Simon, Alexander
+              Rossner &amp; Sven Pagel ist lizenziert unter einer
+              <a rel="license" href="LICENSE">MIT Lizenz</a>.
+            </p>
+            <p>
+              Bei Nutzung bitte zitieren als "Frey-Endres, M.; Simon, T.;
+              Rossner, A. &amp; Pagel, S. (2020). Digitale Forschungswerkzeuge
+              zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in
+              den Geisteswissenschaften".
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/humanist.svg"
+              alt="Logo des Forschungsprojekts Humanist Computer Interaction auf dem Prüfstand"
+              height="50"
+            />
+            <br />
+            <p>
+              Das interdisziplinäre Forschungsprojekt
+              <a href="https://humanist.hs-mainz.de"
+                >"Humanist Computer Interaction auf dem Prüfstand"</a
+              >, gefördert vom Bundesministerium für Bildung und Forschung
+              (BMBF), untersucht die Innovationspotenziale von digitalen
+              Methoden und Werkzeugen in den Geistes- und Kulturwissenschaften.
+            </p>
+            <a
+              href="https://www.bmbf.de/de/vip-technologische-und-gesellschaftliche-innovationspotenziale-erschliessen-563.html"
+              ><img src="img/bmbf.svg" height="75" alt="Gefördert vom BMBF"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

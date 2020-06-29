@@ -1,0 +1,22 @@
+[
+  {
+    "nameShort": "VRE",
+    "nameLong": "Virtual Research Environment"
+  },
+  {
+    "nameShort": "Annotation",
+    "nameLong": "Annotation"
+  },
+  {
+    "nameShort": "Korpusanalyse",
+    "nameLong": "Korpuslinguistische Analyse"
+  },
+  {
+    "nameShort": "Netzwerkanalyse",
+    "nameLong": "Netzwerkanalyse"
+  },
+  {
+    "nameShort": "Geoanalyse",
+    "nameLong": "Geoanalyse"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "TextGrid",
+    "developer": "DARIAH-DE",
+    "logo": "101textgrid.svg",
+    "link": "https://textgrid.de",
+    "apptype": ["portable"],
+    "description": "Lorem ipsum",
+    "functionRange": "high",
+    "digitalMethodsUsed": ["mAnn", "aAnn", "lAnn", "sAnn"],
+    "categories": ["VRE", "Annotation"]
+  },
+  {
+    "name": "Heurist Data Management",
+    "developer": "",
+    "logo": "102heurist_data_management.png",
+    "link": "http://heuristnetwork.org/",
+    "apptype": ["web"],
+    "description": "Lorem ipsum",
+    "functionRange": "medium",
+    "digitalMethodsUsed": [""],
+    "categories": ["VRE"]
+  },
+  {
+    "name": "Annotate",
+    "developer": "",
+    "logo": "201annotate.svg",
+    "link": "https://www.annotate.com/",
+    "apptype": ["web"],
+    "description": "Lorem ipsum",
+    "functionRange": "low",
+    "digitalMethodsUsed": ["mAnn", "sAnn", "lAnn"],
+    "categories": ["Annotation"]
+  },
+  {
+    "name": "ANNIS",
+    "developer": "",
+    "logo": "301annis.PNG",
+    "link": "https://corpus-tools.org/annis/",
+    "apptype": ["desktop"],
+    "description": "Lorem ipsum",
+    "functionRange": "high",
+    "digitalMethodsUsed": ["lingA", "semA", "discA", "tMap", "vis"],
+    "categories": ["Korpusanalyse"]
+  },
+  {
+    "name": "Cytoscape",
+    "developer": "",
+    "logo": "401cytoscape.svg",
+    "link": "http://www.cytoscape.org/",
+    "apptype": ["desktop"],
+    "description": "Lorem ipsum",
+    "functionRange": "high",
+    "digitalMethodsUsed": ["netA", "vis"],
+    "categories": ["Netzwerkanalyse"]
+  },
+  {
+    "name": "Palladio",
+    "developer": "",
+    "logo": "412palladio.png",
+    "link": "http://hdlab.stanford.edu/palladio/",
+    "apptype": ["clientserver"],
+    "description": "Lorem ipsum",
+    "functionRange": "low",
+    "digitalMethodsUsed": ["netA", "geoA", "vis"],
+    "categories": ["Netzwerkanalyse", "Geoanalyse"]
+  },
+  {
+    "name": "ArcGIS",
+    "developer": "ESRI",
+    "logo": "501arcgis.png",
+    "link": "https://www.esri.de/produkte/arcgis",
+    "apptype": ["clientserver"],
+    "description": "Lorem ipsum",
+    "functionRange": "high",
+    "digitalMethodsUsed": ["geoA", "vis"],
+    "categories": ["Geoanalyse"]
+  },
+  {
+    "name": "Ediarum",
+    "developer": "BBAW",
+    "logo": "210ediarum.png",
+    "link": "http://www.bbaw.de/telota/software/ediarum",
+    "apptype": ["desktop"],
+    "description": "Lorem ipsum",
+    "functionRange": "high",
+    "digitalMethodsUsed": ["mAnn", "aAnn", "schem", "kat", "lAnn", "sAnn"],
+    "categories": ["Annotation", "Korpusanalyse"]
+  }
+]

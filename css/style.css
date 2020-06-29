@@ -1,0 +1,233 @@
+/*
+GENERAL
+*/
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active,
+a:visited:hover {
+  color: black;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Simple";
+  src: url("../fonts/lineto-simple-light.eot");
+  src: url("../fonts/lineto-simple-light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/lineto-simple-light.woff2") format("woff2"),
+    url("../fonts/lineto-simple-light.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Simple";
+  src: url("../fonts/lineto-simple-regular.eot");
+  src: url("../fonts/lineto-simple-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/lineto-simple-regular.woff2") format("woff2"),
+    url("../fonts/lineto-simple-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Simple";
+  src: url("../fonts/lineto-simple-bold.eot");
+  src: url("../fonts/lineto-simple-bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/lineto-simple-bold.woff2") format("woff2"),
+    url("../fonts/lineto-simple-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "Merriweather", "Times New Roman", "Times", serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Simple", "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+  font-weight: 400;
+}
+
+/*
+NAVBAR
+*/
+.navbar-creators {
+  text-align: right;
+  float: right;
+  font-size: 0.8em;
+  height: 50px;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-brand img {
+  height: 50px;
+}
+/*
+CATEGORIES
+*/
+.card {
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.category-header,
+.subcategory-header {
+  background: #343a40;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+  font-weight: 400;
+  font-family: "Simple", "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+}
+.subcategory-header {
+  background: #fff;
+  color: #000;
+  border-top: 1px dashed rgba(0, 0, 0, 0.5);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.counter-text {
+  font-size: 0.75em;
+  line-height: 2;
+  float: right;
+  font-style: italic;
+}
+
+/*
+PRODUCTS
+*/
+.product-wrapper {
+  width: 79px;
+  padding: 2px;
+  margin-bottom: 0.5rem;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  vertical-align: middle;
+  background: #fff;
+}
+.logo {
+  max-width: 95%;
+  max-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.list-inline {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.list-inline-item {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.product-link {
+  vertical-align: middle;
+}
+.product-name {
+  display: block;
+}
+
+/*
+Digital Method Bubbles
+*/
+.digital-method,
+.legend-item-digital-method-icon {
+  margin-top: 0.5em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  color: #000;
+  background-color: #f2f2f2;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 15px;
+  font-size: 8px;
+  display: inline-block;
+}
+
+/*
+LEGEND
+*/
+.row-legend {
+  margin-bottom: 2em;
+}
+.legend-description {
+  font-weight: bold;
+}
+.legend-item {
+  display: inline-block;
+}
+.legend-item div {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.legend-item-apptype div {
+  border-style: solid;
+  border-width: 2px;
+  width: 100%;
+}
+.apptype-portable {
+  border-color: #f8cd5d;
+}
+.apptype-desktop {
+  border-color: #f5961e;
+}
+.apptype-clientserver {
+  border-color: #d62048;
+}
+.apptype-web {
+  border-color: #124676;
+}
+.apptype-browser {
+  border-color: #31acd6;
+}
+.apptype-other {
+  border-color: #6ecbd2;
+}
+
+.legend-item-fr div {
+  border-color: #aaa;
+}
+.fr-unknown {
+  border-style: none;
+  border-width: 2px;
+}
+.fr-gering {
+  border-style: solid;
+  border-width: 1px;
+}
+.fr-moderat {
+  border-style: solid;
+  border-width: 2px;
+}
+.fr-hoch {
+  border-style: solid;
+  border-width: 4px;
+}
+
+.legend-item-digital-method {
+  display: block;
+}
+.legend-item-digital-method div {
+  padding: 0;
+}
+
+/*
+Footer
+*/
+footer img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer img:first-child {
+  margin-left: 0;
+}
+footer p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
