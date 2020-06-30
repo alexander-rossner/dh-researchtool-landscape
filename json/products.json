@@ -192,7 +192,7 @@
     "functionRange": "hoch",
     "link": "https://digitalmappa.org/",
     "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "Koll"],
-    "logo": "209digital_mappa.webp",
+    "logo": "209digital_mappa.png",
     "categories": ["Annotation", "Korpusanalyse"],
     "developer": ""
   },
