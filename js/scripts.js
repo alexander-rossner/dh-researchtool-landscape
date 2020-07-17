@@ -9,8 +9,8 @@ function setEqualProductHeight() {
       })
       .get()
   );
-  // $(".product-wrapper").css({ "min-height": 180 });
-  $(".product-wrapper").css({ "min-height": maxHeight });
+  $(".product-wrapper").css({ "min-height": 140 });
+  // $(".product-wrapper").css({ "min-height": maxHeight });
 }
 
 $(document).ready(function() {
