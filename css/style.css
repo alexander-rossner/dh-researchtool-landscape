@@ -97,7 +97,7 @@ CATEGORIES
 PRODUCTS
 */
 .product-wrapper {
-  width: 79px;
+  width: 107px;
   padding: 2px;
   margin-bottom: 0.5rem;
   font-size: 0.6rem;
@@ -106,7 +106,7 @@ PRODUCTS
   background: #fff;
 }
 .logo {
-  max-width: 95%;
+  max-width: 90%;
   max-height: 30px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -198,16 +198,16 @@ LEGEND
   border-width: 2px;
 }
 .fr-gering {
-  border-style: solid;
-  border-width: 1px;
+  border-style: dotted;
+  border-width: 2px;
 }
 .fr-moderat {
-  border-style: solid;
+  border-style: dashed;
   border-width: 2px;
 }
 .fr-hoch {
   border-style: solid;
-  border-width: 4px;
+  border-width: 2px;
 }
 
 .legend-item-digital-method {
