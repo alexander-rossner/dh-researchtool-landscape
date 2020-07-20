@@ -764,7 +764,7 @@
   },
   {
     "name": "Neo4j",
-    "apptype": ["web"],
+    "apptype": ["client-server"],
     "functionRange": "hoch",
     "link": "https://neo4j.com/",
     "digitalMethodsUsed": ["netwA", "GMod", "geoA", "tmpA", "Vis", "Koll"],
