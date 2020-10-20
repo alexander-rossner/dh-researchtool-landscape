@@ -98,6 +98,26 @@
     "developer": ""
   },
   {
+    "name": "GATE",
+    "apptype": ["desktop"],
+    "functionRange": "hoch",
+    "link": "https://gate.ac.uk/",
+    "digitalMethodsUsed": [
+      "mAnn",
+      "aAnn",
+      "Kat",
+      "lAnn",
+      "sAnn",
+      "lingA",
+      "semA",
+      "discA",
+      "vis"
+    ],
+    "logo": "gate.png",
+    "categories": ["VRE", "Annotation", "Korpusanalyse"],
+    "developer": ""
+  },
+  {
     "name": "Annotate (A.nnotate)",
     "apptype": ["web"],
     "functionRange": "gering",
