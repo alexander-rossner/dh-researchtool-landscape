@@ -162,7 +162,7 @@
       "discA",
       "Vis"
     ],
-    "logo": "206classical_text_editor.PNG",
+    "logo": "207catma.png",
     "categories": ["Annotation", "Korpusanalyse"],
     "developer": ""
   },
@@ -172,7 +172,7 @@
     "functionRange": "moderat",
     "link": "http://cte.oeaw.ac.at/",
     "digitalMethodsUsed": ["mAnn", "aAnn", "Kat", "lAnn", "sAnn"],
-    "logo": "207catma.jpg",
+    "logo": "206classical_text_editor.PNG",
     "categories": ["Annotation"],
     "developer": ""
   },
@@ -182,7 +182,7 @@
     "functionRange": "hoch",
     "link": "https://cat.texifter.com/",
     "digitalMethodsUsed": ["mAnn", "Kat", "lAnn", "sAnn", "lingA", "semA"],
-    "logo": "208coding_analysis_toolkit.png",
+    "logo": "208coding_analysis_toolkit.jpg",
     "categories": ["Annotation", "Korpusanalyse"],
     "developer": ""
   },
