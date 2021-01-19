@@ -4,7 +4,7 @@ function setEqualProductHeight() {
   var maxHeight = Math.max.apply(
     null,
     $(".product-wrapper")
-      .map(function() {
+      .map(function () {
         return $(this).height();
       })
       .get()
@@ -13,7 +13,7 @@ function setEqualProductHeight() {
   // $(".product-wrapper").css({ "min-height": maxHeight });
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
   // switches for displaying various information
   var showProductCount = true;
   var showLegend = true;
@@ -24,7 +24,7 @@ $(document).ready(function() {
   var requestProducts = $.getJSON("json/products.json");
 
   $.when(requestCategories, requestProducts)
-    .done(function(dataCategories, dataProducts) {
+    .done(function (dataCategories, dataProducts) {
       // count all products
       $("#count-total").html(dataProducts[0].length);
 
@@ -32,13 +32,12 @@ $(document).ready(function() {
       // Both results are available here
 
       // create segment for each category in categories.json
-      $.each(dataCategories[0], function() {
-        currentCategoryShort = this.nameShort;
-        currentCategoryLong = this.nameLong;
-        currentSubcategories = this.subcategories;
-        currentProductNameCount = 0;
+      $.each(dataCategories[0], function () {
+        var currentCategoryShort = this.nameShort;
+        var currentCategoryLong = this.nameLong;
+        var currentSubcategories = this.subcategories;
 
-        html = `
+        var html = `
             <div class="card">
             <div class="category-wrapper" id="${currentCategoryShort}">
             <div class="category-header clearfix">
@@ -49,14 +48,14 @@ $(document).ready(function() {
 
         // sort subcategories by long name
         if (currentSubcategories !== undefined) {
-          currentSubcategories.sort(function(a, b) {
+          currentSubcategories.sort(function (a, b) {
             return a.nameLong.localeCompare(b.nameLong);
           });
         }
 
-        $.each(currentSubcategories, function(index, currentSubcategory) {
-          currentSubcategoryShort = currentSubcategory.nameShort;
-          currentSubcategoryLong = currentSubcategory.nameLong;
+        $.each(currentSubcategories, function (index, currentSubcategory) {
+          var currentSubcategoryShort = currentSubcategory.nameShort;
+          var currentSubcategoryLong = currentSubcategory.nameLong;
           html += `
                 <div class="subcategory-header card-subtitle mb-2 text-muted">
                 ${currentSubcategoryLong}
@@ -74,19 +73,22 @@ $(document).ready(function() {
 
       // sort products by developer
       // https://stackoverflow.com/a/14208661
-      dataProducts[0].sort(function(a, b) {
+      dataProducts[0].sort(function (a, b) {
         return a.developer.localeCompare(b.developer);
       });
 
       // go through each item in products.json
-      $.each(dataProducts[0], function() {
-        currentName = this.name;
-        currentDeveloper = this.developer;
-        currentLogo = this.logo;
-        currentLink = this.link;
-        currentDescription = this.description;
-        currentCategories = this.categories;
-        currentDigitalMethodsUsed = this.digitalMethodsUsed;
+      $.each(dataProducts[0], function () {
+        var currentName = this.name;
+        var currentDeveloper = this.developer;
+        var currentLogo = this.logo;
+        var currentLink = this.link;
+        var currentDescription = this.description;
+        var currentCategories = this.categories;
+        var currentDigitalMethodsUsed = this.digitalMethodsUsed;
+        var currentFunctionRange = "";
+        var currentApptype = "";
+        var currentMetadata = this.metadata;
 
         // add appropriate css classes for technology readiness level and mediatype
         if (this.functionRange == "") {
@@ -101,30 +103,43 @@ $(document).ready(function() {
         }
 
         // go through each category of the item and add the product to the correspondig section
-        $.each(currentCategories, function(
+        $.each(currentCategories, function (
           key,
           currentCategoryWithSubcategory
         ) {
           currentCategoryWithSubcategory = currentCategoryWithSubcategory.split(
             "_"
           );
-          currentCategory = currentCategoryWithSubcategory[0];
-          currentSubcategory = currentCategoryWithSubcategory[1];
+          var currentCategory = currentCategoryWithSubcategory[0];
+          var currentSubcategory = currentCategoryWithSubcategory[1];
+          var currentProductName = "";
 
           // only show developer if it isn't the same as the product name
-          if (currentDeveloper != currentName) {
-            currentProductName =
-              currentDeveloper + " <b>" + currentName + "</b>";
-          } else {
-            currentProductName = "<b>" + currentName + "</b>";
+          currentProductName = "<b>" + currentName + "</b>";
+          if (currentDeveloper != currentName && currentDeveloper != "") {
+            currentProductName = currentDeveloper + " " + currentProductName;
           }
+          // convert product name to id
+          // remove html tags
+          var currentProductId = currentProductName.replace(
+            /<\/?[^>]+(>|$)/g,
+            ""
+          );
+          // convert to lower case
+          currentProductId = currentProductId.toLowerCase();
+          // remove all brackets
+          currentProductId = currentProductId.replace(/[().,]/g, "");
+          // remove leading or trailing spaces
+          currentProductId.trim();
+          // spaces to dashes
+          currentProductId = currentProductId.replace(/\s+/g, "-");
 
-          html = `
+          var html = `
                 <li class="product-wrapper text-center d-inline-flex ${currentApptype} ${currentFunctionRange}">
-                <a href="${currentLink}" title="${currentDescription}" target="_blank" class="product-link w-100 my-auto">
+                <a href="#" data-toggle="modal" data-target="#${currentProductId}" title="Hier klicken für mehr Informationen" target="_blank" class="product-link w-100 my-auto">
                 <img class="logo" src="img/${currentLogo}">
                 <span class="product-name">${currentProductName}</span>`;
-          $.each(currentDigitalMethodsUsed, function(index, value) {
+          $.each(currentDigitalMethodsUsed, function (index, value) {
             if (value != "") {
               html += `<div class="digital-method">${value}</div>`;
             }
@@ -134,6 +149,64 @@ $(document).ready(function() {
                 </li>
                 `;
 
+          html += `
+
+          <div class="modal fade" id="${currentProductId}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">${currentProductName}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                `;
+          if (typeof currentLink != "undefined") {
+            html += `
+                  <p>
+                    <a href="${currentLink}" target="_blank" class="btn btn-warning" role="button" aria-pressed="false">Link zur Anwendung</a>
+                  </p>
+                  `;
+          }
+          if (typeof currentDescription != "undefined") {
+            html += `
+                    <p><b>Beschreibung</b></p> 
+                    <p>${currentDescription}</p>
+                  `;
+          }
+          html += `
+                <table class="table">
+                  `;
+          // go through metadata if available
+          if (typeof currentMetadata != "undefined") {
+            $.each(currentMetadata, function (i, value) {
+              html += `
+                      <tr>
+                        <th colspan="2">${currentMetadata[i].meta_heading}</th>
+                      </tr>
+                        `;
+              $.each(currentMetadata[i].meta_content, function (j, value) {
+                html += `
+                        <tr>
+                          <td>
+                            ${currentMetadata[i].meta_content[j].meta_description}
+                          </td>
+                          <td>
+                            ${currentMetadata[i].meta_content[j].meta_text}
+                          </td>
+                        </tr>
+                        `;
+              });
+            });
+          }
+          html += `
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          `;
           try {
             // if the current product has no subcategory append it to the superior category
             if (currentSubcategory === undefined) {
@@ -203,7 +276,7 @@ $(document).ready(function() {
         $("h1").hide();
       }
     })
-    .fail(function() {
+    .fail(function () {
       // Executed if at least one request fails
     });
 });
