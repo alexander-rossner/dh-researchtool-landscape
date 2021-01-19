@@ -2656,7 +2656,7 @@
   {
     "name": "QAnnotate",
     "developer": "",
-    "logo": "qannotate.svg",
+    "logo": "q-annotate.svg",
     "link": "https://www.linglit.tu-darmstadt.de/institutlinglit/fachgebiete/cophi/forschungcomputerphilologie/humanist_qannotate.de.jsp",
     "apptype": ["portable"],
     "functionRange": "moderat",
