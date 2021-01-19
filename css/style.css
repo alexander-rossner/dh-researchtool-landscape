@@ -127,6 +127,26 @@ PRODUCTS
   display: block;
 }
 
+.modal-header {
+  background: #343a40;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0.5em;
+  font-weight: 400;
+  font-family: "Simple", "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+}
+.modal-header .close {
+  color: #fff;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.modal-content {
+  font-size: 0.75em;
+}
+
 /*
 Digital Method Bubbles
 */
