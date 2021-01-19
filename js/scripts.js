@@ -162,17 +162,17 @@ $(document).ready(function () {
                 </div>
                 <div class="modal-body">
                 `;
+          if (typeof currentDescription != "undefined") {
+            html += `
+                    <p><b>Beschreibung</b></p> 
+                    <p>${currentDescription}</p>
+                  `;
+          }
           if (typeof currentLink != "undefined") {
             html += `
                   <p>
                     <a href="${currentLink}" target="_blank" class="btn btn-warning" role="button" aria-pressed="false">Link zur Anwendung</a>
                   </p>
-                  `;
-          }
-          if (typeof currentDescription != "undefined") {
-            html += `
-                    <p><b>Beschreibung</b></p> 
-                    <p>${currentDescription}</p>
                   `;
           }
           html += `
