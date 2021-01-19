@@ -1226,7 +1226,7 @@
   {
     "name": "Catma",
     "developer": "",
-    "logo": "207catma.jpg",
+    "logo": "207catma.png",
     "link": "http://catma.de/",
     "apptype": ["web"],
     "functionRange": "moderat",
@@ -1447,7 +1447,7 @@
   {
     "name": "Coding Analysis Toolkit (CAT)",
     "developer": "",
-    "logo": "208coding_analysis_toolkit.png",
+    "logo": "208coding_analysis_toolkit.jpg",
     "link": "https://cat.texifter.com/",
     "apptype": ["web"],
     "functionRange": "hoch",
